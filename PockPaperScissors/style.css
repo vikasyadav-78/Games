@@ -9,3 +9,57 @@ body {
     height: 100%;
     width: 100%;
 }
+.heading{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #081829;
+    color: #fff;
+}
+.images-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.images img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all .1s ease;
+}
+
+.images img:hover{
+    border: .6rem solid #081829e2;
+}
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.you{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: .3rem;
+}
+
+.movies-main{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    background-color: #081829;
+    width: auto;
+    display: inline-block;
+    justify-content: center;
+}
+.moves{
+    border-radius: 5rem;
+}
