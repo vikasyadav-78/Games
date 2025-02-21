@@ -30,6 +30,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     transition: all .1s ease;
+    cursor: pointer;
 }
 
 .images img:hover{
@@ -50,16 +51,20 @@ body {
     margin-bottom: .3rem;
 }
 
-.movies-main{
+.moves{
     margin-top: 2rem;
     font-weight: bold;
-    font-size: 1.5rem;
-
+    font-size: 1.3rem;
+    padding: .8rem;
     background-color: #081829;
     width: auto;
     display: inline-block;
-    justify-content: center;
+    border-radius: 1.1rem;
+    color: #fff;
+    
 }
-.moves{
-    border-radius: 5rem;
+.moves-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
